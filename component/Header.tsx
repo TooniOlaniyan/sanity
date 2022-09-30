@@ -1,7 +1,15 @@
 function Header() {
   return (
-    <div>
-        <h1>I am a header</h1>
+    <div className="py-4 border">
+        <div>
+            <img src="" alt="" />
+
+        </div>
+        <div>
+            <p>Sign in</p>
+            <p>Get started</p>
+
+        </div>
     </div>
   )
 }
